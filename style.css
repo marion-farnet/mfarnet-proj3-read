@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+body{
+    background-color:rgb(219, 210, 182);
+    font-family: 'Playfair Display', serif;
+}
+
+pre{
+    display:none;
+}
+
+a{
+    color:darkslategrey;
+}
+
+a:hover{
+    color: #771349;
+}
+
+p{
+    margin-top:auto;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom:20px;
+    padding-right: 20vw;
+    padding:0;
+    font-size:1em;
+    color:black;
+    font-family:'Playfair Display', serif;
+    width: 40vw;
+    max-width: 600px;
+    line-height:1.4em;
+}
+
+img[src='images/bookcover.jpg']{
+    display:none;
+}
+
+img[src='images/spine.jpg']{
+    display:none;
+}
+
+h1{
+    margin-top:auto;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom:20px;
+    font-size:50pt;
+    text-align:center;
+    color: #771349;
+}
+
+h2{
+    margin-top:auto;
+    margin-right:auto;
+    margin-left: auto;
+    text-align:center;
+    margin-bottom:20px;
+    max-width: 600px;
+    font-size:30pt;
+    color: #771349;
+}
+
+h3{
+    margin-top:auto;
+    margin-right:auto;
+    margin-left: auto;
+    text-align:center;
+    margin-bottom:20px;
+    max-width: 600px;
+    font-size:15pt;
+    color: #771349;
+}
+
+p:nth-of-type(2n+1){
+    padding-right: 0vw;
+    padding-left: 5vw;
+}
+
+p+p{
+    text-indent:1em;
+}
+
+img{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 35vw;
+    mix-blend-mode: multiply;
+    
+
+}
+
+
+
+
+
+/*phones*/
+
+@media only screen and (max-width: 800px) {
+
+    p{
+        margin: auto;
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            margin-left: auto;
+        padding: 0;
+            padding-top: 0;
+            padding-right: 0vw;
+            padding-bottom: 0;
+            padding-left: 0;
+        font-size: 1.4em;
+        color: black;
+        font-family:'Playfair Display', serif;
+        width: 80vw;
+        max-width: 600px;
+        line-height: 1.7em;
+        letter-spacing: 1px;
+    }
+
+    p:nth-of-type(2n+1){
+        padding-right: 0vw;
+        padding-left: 10vw;
+    }
+
+}
+
+
+
+
+/*tablets*/
+
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+
+    p{
+        margin: auto;
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            margin-left: auto;
+        padding: 0;
+            padding-top: 0;
+            padding-right: 0vw;
+            padding-bottom: 0;
+            padding-left: 0;
+        font-size: 1.1em;
+        color: black;
+        font-family:'Playfair Display', serif;
+        width: 60vw;
+        max-width: 600px;
+        line-height: 1.4em;
+        letter-spacing: 1px;
+    }
+
+    p:nth-of-type(2n+1){
+        padding-right: 0;
+        padding-left: 10vw;
+    }
+
+}
